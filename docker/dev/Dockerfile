@@ -32,3 +32,9 @@ USER appuser
 
 # Install application into container
 COPY . .
+
+# Collect static
+USER root
+RUN python django_react_boilerplate/manage.py collectstatic --settings=backend.settings.ci --no-input --clear
+
+USER appuser
