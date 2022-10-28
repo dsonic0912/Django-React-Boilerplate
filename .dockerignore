@@ -1,0 +1,8 @@
+**
+
+!Pipfile
+!Pipfile.lock
+!django_react_boilerplate/backend/
+!django_react_boilerplate/frontend/build/
+!django_react_boilerplate/frontend/*.py
+!django_react_boilerplate/manage.py
